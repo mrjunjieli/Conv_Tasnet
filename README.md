@@ -5,6 +5,8 @@
 - librosa
 - pytorch
 ### 数据准备
+
+数据已经打包到onedrive https://1drv.ms/u/s!AtdlrbUuaZUHm2R1yJQkgKoCEIBg?e=SFOyCj
 ```shell
 python3 createDataPath.py 
 ```
