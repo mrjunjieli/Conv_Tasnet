@@ -11,14 +11,12 @@ import librosa as lb
 
 
 #which is saving data set
-# visual_root = '/CDShare2/LRS3_process/lips'  #there are three folders(pretrain,trainval,test) in this folder
-mixaudio_root = '//Work18/2018/shihao/SLT2021-speech-separaion/DS_10283_1942/datasets/'#there are three folders(pretrain ,train,test) in this folder
+mixaudio_root = '/Work18/2018/shihao/SLT2021-speech-separaion/DS_10283_1942/datasets/'#there are three folders(pretrain ,train,test) in this folder
 
 #which is used to save pathfile
-# visual_datafolder = './data/visual/'
 audio_datafolder = './data/audio/' 
 
-# os.makedirs(visual_datafolder,exist_ok=True)
+
 os.makedirs(audio_datafolder,exist_ok=True)
 
 
@@ -72,5 +70,4 @@ def CreateAudioPath(inpath,outpath,timeLen=3):
 
 if __name__ =='__main__':
     CreateAudioPath(mixaudio_root,audio_datafolder)
-    # CreateVisualPath(audio_datafolder,visual_root,visual_datafolder)
-    # CheckLipNum(visual_datafolder)
+    
