@@ -24,7 +24,7 @@ python3 createDataPath.py
 
 1、更改对应的数据路径
 
-2、设置好训练参数 然后运行
+2、设置好训练参数 然后运行（预训练好的模型已经放在/log/model文件中了，自行下载即可）
 
 ```shell
 python3 main.py 
